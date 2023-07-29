@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Mobile Fist */
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #204473;
+    position: relative;
+}
+
+#imagem { 
+    background-image: url(../imagens/pexels-carlos-tran-17570742.jpg);
+    width: 300px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loguin {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#loguin h1 {
+    margin: 5px;
+    text-align: center;
+}
+
+#cemail label {
+    background-color: #204473;
+    margin-left: 30px;
+    height: 30px;
+    width: 20px;
+}
+
+#cemail input {
+    height: 30px;
+    width: 200px;
+    border: 2px solid  #204473;
+    border-radius: 10px;
+}
+
+#csenha label {
+    margin-left: 30px;
+}
+
+#csenha input {
+    height: 30px;
+    width: 200px;
+    border: 2px solid  #204473;
+    border-radius: 10px;
+}
+
+#entrar input {
+    border-radius: 5px;
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    background-color: rgb(79, 172, 139);
+}
+
+#recuperar input {
+    border-radius: 5px;
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}

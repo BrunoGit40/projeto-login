@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loguin</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem">
+
+            </div>
+            <div id="loguin">
+                <h1>Loguin</h1>
+                <p>Bem Vindo(a) de volta, faça loguin para acessar sua conta e fazer as configurações no seu ambiente.</p>
+                <form action="cadastro.php" method="post">
+                    
+                    <div id="cemail">
+                        <label for="iemail"><span class="material-icons orange600">person</span></label>
+                        <input type="email" name="email" id="iemail" required autocomplete="on" placeholder="E-mail ou ID">
+                    </div>
+                    
+                    <div id="csenha">
+                        <label for="isenha"><span class="material-icons orange600">key</span></label>
+                        <input type="password" name="senha" id="isenha" required autocomplete="off" placeholder="Senha">
+                    </div>
+                    <div id="entrar"><input type="submit" value="Entrar"></div>
+                    <div id="recuperar"><input type="button" value="Esqueci a senha"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
