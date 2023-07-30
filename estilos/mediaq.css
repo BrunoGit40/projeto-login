@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px) {
+    main {
+        background-image: linear-gradient(to bottom, #012E40, #3CA6A6);
+    }
+    section {
+        flex-direction: row;
+    }
+    #loguin {
+        width: 450px;
+    }
+
+    #imagem {
+        width: 450px;
+    }
+
+    #cemail label{
+        margin-left: 55px;
+    }
+
+    #cemail input {
+        height: 40px;
+        width: 300px;
+    }
+
+    #csenha label {
+        margin-left: 55px;
+    }
+
+    #csenha input {
+        height: 40px;
+        width: 300px;
+    }
+
+    #entrar input {
+        margin-left: 55px;
+        height: 40px;
+        width: 330px;
+    }
+
+    #recuperar input {
+        margin-left: 55px;
+        height: 40px;
+        width: 330px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+        
+    main {
+        background-image: linear-gradient(to bottom, #012E40, #3CA6A6);
+    }
+    
+    section {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #imagem { 
+        height: 300px;
+        width: 300px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    #loguin {
+        width: 500px;
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    #cemail label{
+        margin-left: 70px;
+    }
+
+    #cemail input {
+        height: 40px;
+        width: 300px;
+    }
+
+    #csenha label {
+        margin-left: 70px;
+    }
+
+    #csenha input {
+        height: 40px;
+        width: 300px;
+    }
+
+    #entrar input {
+        margin-left: 70px;
+        height: 40px;
+        width: 330px;
+    }
+
+    #recuperar input {
+        margin-left: 70px;
+        height: 40px;
+        width: 330px;
+    }
+}
